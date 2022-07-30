@@ -1,0 +1,72 @@
+* {
+    font-family: "Helvetica Neue";
+    font-weight: bold;
+    font-size:103%;
+}
+.chicken, .Beef, .Sushi {
+    border: 1px solid black;    
+}
+.container {
+    border: 5px solid black;    
+}
+.MENU { 
+    padding:70px;
+    text-align: center;
+    font-size: 250%;
+}
+@media (min-width: 992px) {
+    .col-lg-4, .col-md-6, .col-sm-12 {
+        float: left;
+    }
+    .col-lg-4, .col-md-6, .col-sm-12 {
+        width: 33%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-lg-4, .col-md-6, .col-sm-12 {
+        float: left;
+    }
+    .col-lg-4, .col-md-6 {
+        width: 50%;
+    }
+    .col-sm-12 {
+        width: 100%;
+    }
+}
+@media (max-width: 767px) {
+    .col-lg-4, .col-md-6, .col-sm-12 {
+        float: left;
+    }
+    .col-lg-4, .col-md-6, .col-sm-12 {
+        width: 100%;
+    }
+}
+nav {
+    border: 1px solid black;    
+    font-size: 20px;
+    font-weight: bold;
+    box-sizing: border-box;    
+    text-align: center;
+    padding: 3px 10px 3px 10px;
+    width: 100px;
+    float:right; 
+    position: relative;           
+}
+.chicken, .Beef, .Sushi {
+    margin: 15px;
+    background-color:rgb(178, 162, 162)
+}
+.Beef1 {    
+    position: static;
+    color: white;
+    background-color:rgb(230, 43, 43);
+}
+.chicken1 { 
+    position: static;
+    background-color:rgb(243, 155, 155);
+}
+.Sushi1 { 
+    position: static;
+    background-color:rgb(220, 212, 62);
+}
+
